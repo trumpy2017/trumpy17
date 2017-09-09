@@ -20,7 +20,7 @@ var total = ["252","193","159","139","133","126","112","108","105","101","101","
     var elmFoo = document.getElementsByClassName('author');
     for (var i = 0; i < elmFoo.length; i++){
         isThere = Query.inArray( elmFoo[i].innerHTML, list );
-        if (isThere) >= 0){
+        if (isThere >= 0){
             trumpycount++
             var commentcount = total[isThere];
             elmFoo[i].innerHTML = "<a title=\"" . commentcount . " comments>TRUMPY!<img src=\"https://raw.githubusercontent.com/trumpyextension/trumpy/master/trump.gif\"></a>"+ elmFoo[i].innerHTML;
