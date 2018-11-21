@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trumpy2017!
 // @namespace    https://github.com/trumpy2017/trumpy17/
-// @version      0.4.20181120
+// @version      0.4.20181121
 // @description  Displays an icon next to users who frequently submit to or comment in /r/the_donald
 // @author       https://github.com/trumpy2017
 // @include     http://www.reddit.com/*
